@@ -1,1 +1,1 @@
-# proteted-document
+# protected-document
