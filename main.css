@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+}
+.align-center{
+  text-align: center;
+}
+
+.content-box{
+  padding: 20px;
+}
+.shadow{
+  box-shadow: 2px 2px 5px #999;
+}
+.red{
+  color: rgb(196,11,11);
+}
+#font-size-style{
+  font-size: 0.9rem;
+}
+.content-box-p{
+  padding: 20px 20px 0px 20px;
+}
+.width-100{
+  width: 100%;
+}
+div.width-100 image#inherit{
+  max-width: 100%
+  height: auto;
+}
+.dashed{
+  border-top: dashed 3px;
+}
+main{
+  margin-top: 81.6px;
+}
+section{
+  padding: 80px 0;
+}
