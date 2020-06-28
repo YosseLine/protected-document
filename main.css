@@ -1,14 +1,20 @@
 body{
   box-sizing: border-box;
+  background-color: rgb(224,224,226);
+  background-attachment: scroll;
 }
 .align-center{
   text-align: center;
 }
 
+header{
+  z-index: 1000;
+  background-color: rgb(40,87,171);
+}
 .content-box{
   padding: 20px;
 }
-.shadow{
+.shadow-box{
   box-shadow: 2px 2px 5px #999;
 }
 .red{
@@ -33,6 +39,27 @@ div.width-100 image#inherit{
 main{
   margin-top: 81.6px;
 }
+
 section{
-  padding: 80px 0;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+.document{
+  background-color: white;
+  box-shadow: 5px #999;
+  padding: 40px 0;
+}
+@media (min-width: 1200px) {
+  .content-box{
+    padding: 50px;
+  }
+  .document{
+    padding: 150px 80px;
+  }
+  main {
+    margin-top: 141.6px;
+}
+div.width-100{
+  padding: 50px;
+}
 }
